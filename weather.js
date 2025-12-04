@@ -19,7 +19,7 @@ form.addEventListener('submit', function(event) {
 
 
 // the api and the url
-import { apiKey } from "./config.js";
+import { apiKey } from './config.js';
 
 const api_Url = 'https://api.openweathermap.org/data/2.5/weather?units=metric&appid='+apiKey;
 
