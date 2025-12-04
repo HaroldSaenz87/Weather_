@@ -18,8 +18,8 @@ form.addEventListener('submit', function(event) {
 });
 
 
-// the api and the url
-import { apiKey } from './config.js';
+// the free (no price) api and the url
+const apiKey = "46e4a6feafcb4aa91521e1a30915e7bc";
 
 const api_Url = 'https://api.openweathermap.org/data/2.5/weather?units=metric&appid='+apiKey;
 
